@@ -11,7 +11,7 @@ com foco em resolução de problemas HackerRank para a prova de efetivação do 
 
 | Dia | Data | Exercícios | Principais aprendizados |
 |-----|------|------------|--------------------------|
-| 01  | 02/10/2026 | Fibonacci, Soma de potências de 2 | Acumular vs. concatenar
+| 01  | 02/10/2026 | Fibonacci, Exercicio Java loops II (HackerRank) | Acumular vs. concatenar
 
 ## Tecnologias
 Java
