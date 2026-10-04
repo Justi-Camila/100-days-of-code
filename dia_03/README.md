@@ -16,7 +16,7 @@ Implementação de um min-heap com array em Java, começando pelo método `inser
   for menor que ele — O(log n)
 - `tamanho` = quantidade de elementos = índice da próxima posição livre
   (começa em 0)
-- Erros que corrigi: `heap` declarado mas não instanciado (`NullPointerException`),
+- Erros que corrigi: `heap` declarado, mas não instanciado (`NullPointerException`),
   `tamanho` iniciado em 5 e falta de checagem de capacidade
 - Próximo passo: implementar o `extractMin` (sift down) e depois o `MaxHeap`
 ### 2. Singleton — CadastroAlunos
