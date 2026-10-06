@@ -1,13 +1,13 @@
-package dia_03.extract_min.src;
+package dia_04.extract_min.src;
 
-public class MinHeap {
+public class ExtractMin {
     private int[] heap;
 
     // tamanho = quantidade de elementos = índice da próxima posição livre
     private int tamanho;
 
     // Construtor que inicializa o array heap
-    public MinHeap(int capacidade) {
+    public ExtractMin(int capacidade) {
         heap = new int[capacidade];
         tamanho = 0;
     }
@@ -39,5 +39,41 @@ public class MinHeap {
             System.out.print(heap[i] + " ");
         }
         System.out.println();
+    }
+
+    public int extractMin() {
+        if (tamanho == 0) {
+            throw new IllegalStateException("Heap vazio");
+        }
+
+        int variavelMin = heap[0];
+        heap[tamanho] = heap[tamanho - 1];
+        tamanho--;
+
+        int i = 0;
+
+        while (true) {
+            int esquerdo = 2 * i + 1;
+            int direito = 2 * i + 2;
+            int menor = i;
+            if (esquerdo < tamanho && heap[esquerdo] < heap[menor]) {
+                menor = esquerdo;
+            }
+
+            if (direito < tamanho && heap[direito] < heap[menor]) {
+                menor = direito;
+            }
+
+            if (menor == i) {
+                break;
+            } else {
+                int temp = heap[i];
+                heap[i] = heap[menor];
+                heap[menor] = temp;
+                i = menor;
+            }
+        }
+
+        return variavelMin;
     }
 }
