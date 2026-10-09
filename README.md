@@ -17,7 +17,7 @@ com foco em resolução de problemas HackerRank para a prova de efetivação do 
 | 04  | 05/10/2026 | DataTypes (HackerRank), extractMin                              | `MIN_VALUE`/`MAX_VALUE`; 1ª linha da entrada é o nº de casos    |
 | 05  | 06/10/2026 | SimpleSumArray (HackerRank), extractMin                         | Sift down: o último elemento vai para a raiz                    |
 | 06  | 07/10/2026 | MaxHeap, A Very Big Sum (HackerRank), Alura (threads)           | Sift down: índice × valor; `long` quando a soma estoura o `int` |
-| 07  | 08/10/2026 | Projeto Gestão vagas, Diagonal Difference (HackerRank), AZ-900  | Fórmulas genéricas, Mockito                                     |
+| 07  | 08/10/2026 | Projeto Gestão vagas, Diagonal Difference (HackerRank)          | Fórmulas genéricas, Mockito                                     |
 
 
 ## Tecnologias
