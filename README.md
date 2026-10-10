@@ -18,6 +18,8 @@ com foco em resolução de problemas HackerRank para a prova de efetivação do 
 | 05  | 06/10/2026 | SimpleSumArray (HackerRank), extractMin                         | Sift down: o último elemento vai para a raiz                    |
 | 06  | 07/10/2026 | MaxHeap, A Very Big Sum (HackerRank), Alura (threads)           | Sift down: índice × valor; `long` quando a soma estoura o `int` |
 | 07  | 08/10/2026 | Projeto Gestão vagas, Diagonal Difference (HackerRank)          | Fórmulas genéricas, Mockito                                     |
+| 08  | 09/10/2026 | Projeto Gestão vagas, Plus Minus (HackerRank), AZ-900, API-Node | Caminho feliz/erro, Mockito.verify(), TypeScript                |
+
 
 
 ## Tecnologias
