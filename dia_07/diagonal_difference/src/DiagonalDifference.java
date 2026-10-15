@@ -25,11 +25,11 @@ public class DiagonalDifference {
         }
 
         // Pode ser substituído por um for each
-        for (List<Integer> integers : arr) {
-            contador -= 1;
-            sum2 += integers.get(contador);
-
-        }
+//        for (List<Integer> integers : arr) {
+//            contador -= 1;
+//            sum2 += integers.get(contador);
+//
+//        }
 
         return Math.abs(sum1-sum2);
 
