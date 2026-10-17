@@ -23,6 +23,7 @@ com foco em resolução de problemas HackerRank para a prova de efetivação do 
 | 10  | 12/10/2026 | Planejamento Controle de Estoque, Java String Reverse (HackerRank) | Separação de responsabilidades; injeção de dependência; método pronto para inverter String |
 | 11  | 14/10/2026 | Injeção de Dependência, Mini-Max Sum (HackerRank)                  | DIP, IoC, DI; mapToLong();                                                                 |
 | 12  | 15/10/2026 | Injeção de Dependência, Lonely Integer (HackerRank)                | getOrDefault(), getValue(), getKey()                                                       |
+| 13  | 16/10/2026 | Java HashSet (HackerRank)                                          | Normalizar a chave quando a ordem não importa; compareTo                                   |
 
 ## Tecnologias
 Java
