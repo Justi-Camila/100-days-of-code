@@ -27,6 +27,7 @@ com foco em resolução de problemas HackerRank para a prova de efetivação do 
 | 14  | 18/10/2026 | Carro e TV (exercícios da capacitação)                             | Variáveis com a mesma informação divergem, o caminho de erro não deve alterar o estado                   |
 | 15  | 19/10/2026 | Mercado (exercícios da capacitação)                                | Separação das responsabilidades                                                                          |
 | 16  | 22/10/2026 | Biblioteca (capacitação), Java Singleton Pattern (HackerRank)      | Singleton: construtor privado + campo estático; quando o enunciado e o exemplo discordam, o exemplo vale |
+| 17  | 23/10/2026 | Biblioteca, Musicas, Endereço (exercícios da capacitação)          | toString()                                                                                               |
 
 ## Tecnologias
 Java
